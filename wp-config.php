@@ -57,6 +57,8 @@ define( 'SECURE_AUTH_SALT', 'nYaDA|Eg]kQ!xkK1EwqMl8hKb%<HqeYT=}r4{vgu(k:gH|!l1&Q
 define( 'LOGGED_IN_SALT',   '[5&%*AggB=%~i3!n i,TD8pr|?N&>crE3je{.J5F003/0r&ejE/,6G#PdEHahG^9' );
 define( 'NONCE_SALT',       'P$OZ5.B0Go|}9Fh5 _hPs}-pln(w0fD9;p[$@|||=OaBRU,8650(Q)n@*x`WHn,?' );
 
+// setup FTP credentials
+define('FS_METHOD','direct');
 /**#@-*/
 
 /**
